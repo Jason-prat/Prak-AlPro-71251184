@@ -1,0 +1,20 @@
+Program Bilangan Prima
+
+Deklarasi
+	prima, x, Bilangan : Integer
+Algoritma 
+	SET prima = 0
+	SET x = 1
+	INPUT Bilangan
+	WHILE
+		IF Bilangan MOD x = 0 
+			SET prima = prima + 1 
+		ENDIF
+		x = x + 1
+	ENDWHILE
+	IF prima = 2 
+		PRINT "Bilangan Prima"
+	ELSE
+		PRINT "Bukan Bilangan Prima"
+	ENDIF
+	END 

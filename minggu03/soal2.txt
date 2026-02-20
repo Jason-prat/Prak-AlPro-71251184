@@ -1,0 +1,18 @@
+PROGRAM Akar Kuadrat
+	
+Deklarasi
+	a, b, c : Float
+	D : Float
+Algoritma
+	INPUT a, b, c
+	SET D = b**2 - 4 * a * c
+	IF D > 0 
+		PRINT "Akar Real dan Berlainan"
+	ELSE 
+		IF D = 0
+			PRINT "Akar Real dan Kembar"
+		ELSE
+			PRINT "Akar Imajiner/ Tidak Real/ Khayal"
+		ENDIF
+	ENDIF
+	END

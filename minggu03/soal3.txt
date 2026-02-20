@@ -1,0 +1,18 @@
+PROGRAM Faktorial
+
+Deklarasi
+	faktorial, n : Integer
+	SET faktorial = 1
+
+	READ n
+
+	IF n < 0 
+		PRINT "Nilai Faktorial Negatif Tidak Terdefinisi"
+	ELSE
+		WHILE n <=1 
+			SET faktorial = faktorial * n 
+			SET n = n - 1
+		ENDWHILE
+	PRINT faktorial
+	ENDIF
+	END
